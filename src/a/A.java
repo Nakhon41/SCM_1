@@ -24,8 +24,8 @@ public class A {
 			{
 				this.result += 3000;
 			}
-		
-		return this.result;
 		}
+		return this.result;
+		
 	}
 }
