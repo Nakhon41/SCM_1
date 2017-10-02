@@ -15,9 +15,13 @@ public class A {
 		}else if(this.sale>25000) {
 			this.result=(this.sale*(0.02))+this.sarary;
 		}else
+			
 		{
 		this.result=(this.sale*(0.01))+this.sarary;
-			
+		}
+		
+		if(this.result < 18000 ) {
+			this.result = 18000 ;
 		}
 		return this.result;
 		}
