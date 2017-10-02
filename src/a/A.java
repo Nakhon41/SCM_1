@@ -20,12 +20,9 @@ public class A {
 			if(this.result < 18000 ) {
 				this.result = 18000 ;
 		}
-			if(this.sarary < 15000 && this.sale > 100000)
-			{
-				this.result += 3000;
-			}
-		
+		}
 		return this.result;
 		}
-	}
+		
+	
 }
